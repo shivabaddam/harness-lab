@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: harness-lab
-        image: shivabaddam/harness-lab:6
+        image: shivabaddam/harness-lab:harness-lab-app
         ports:
         - containerPort: 8080
