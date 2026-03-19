@@ -1,4 +1,4 @@
-package com.harness.lab.demo;
+package com.harness.lab;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
