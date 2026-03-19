@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello from Harness CI/CD Kubernetes Lab!";
+        return "Harness-lab: Hello from Harness CI/CD Kubernetes Lab!";
     }
 
     @GetMapping("/health")
