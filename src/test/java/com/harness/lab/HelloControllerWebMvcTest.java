@@ -19,7 +19,7 @@ class HelloControllerWebMvcTest {
 	void rootEndpointReturnsWelcomeMessage() throws Exception {
 		mockMvc.perform(get("/"))
 			.andExpect(status().isOk())
-			.andExpect(content().string("Hello from Harness CI/CD Kubernetes Lab!"));
+			.andExpect(content().string("Harness-lab: Hello from Harness CI/CD Kubernetes Lab!"));
 	}
 
 	@Test
